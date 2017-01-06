@@ -10,11 +10,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>SysLab</title>
 
-
-    <script src="https://use.fontawesome.com/9a93b47e91.js"></script>
-
     <!-- Custom Theme Style -->
-    <link href="{{asset('css/all.css')}}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/custom.css')}}" rel="stylesheet">
 </head>
 
 <body class="nav-md">
@@ -43,7 +41,7 @@
                 SysLab 1.0
             </div>
             <div class="pull-right">
-                Desenvolvido por 22Lab
+                <a href="#"> Desenvolvido por 22Lab</a>
             </div>
             <div class="clearfix"></div>
         </footer>
@@ -58,19 +56,11 @@
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
 
-<script src="{{asset('js/all.js')}}"></script>
-
-<!-- jquery.inputmask -->
-<script src="{{asset('arq/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/custom.min.js')}}"></script>
 
 
-<!-- jquery.inputmask -->
-<script>
-    $(document).ready(function() {
-        $(":input").inputmask();
-    });
-</script>
-<!-- /jquery.inputmask -->
+<script src="https://use.fontawesome.com/9a93b47e91.js"></script>
 
 </body>
 </html>
